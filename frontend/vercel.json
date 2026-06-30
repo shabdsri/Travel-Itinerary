@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/login", "dest": "/login" },
+    { "src": "/signUp", "dest": "/signUp" },
+    { "src": "/dashboard", "dest": "/dashboard" },
+    { "src": "/add-itinerary", "dest": "/add-itinerary" },
+    { "src": "/(.*)", "dest": "/login" }
+  ]
+}
